@@ -25,6 +25,15 @@ header nav li a {
     font-weight: italic;
 }
 
+h1 {
+    font-weight: bold;
+}
+
+h2, h3 {
+    color:  rgb(5, 77, 59);
+    font-weight: bold;
+}
+
 body {
     font-family: 'Tiro Tamil', serif;
     font-weight: normal;
@@ -43,10 +52,21 @@ section .container {
     margin: 0 auto;
 }
 
+h2 {
+    padding:16px;
+    font-size: 32px;;
+}
+
+.under-container p {
+    padding: 16px 0;
+    text-align: justify;
+}
+
 .figure {
     text-align: right;
-    padding: 
+    padding: 16px 0;
 }
+
 section .container img {
     width: 80%;
     padding: 16px 0;
@@ -57,4 +77,23 @@ section .container figcaption {
     font-family: 'Tiro Tamil', serif;
     font-weight: italic;
     font-size: 12px;
+    cursor: pointer;
+}
+
+.brands-list ul li {
+    padding: 8px;;
+}
+
+.brands-list img {
+    height: 160px;
+}
+
+.articles article img {
+    width: 30%;
+    padding: 16px 0;
+    border-radius: 4%;
+}
+
+.articles article {
+    display: inline;
 }
