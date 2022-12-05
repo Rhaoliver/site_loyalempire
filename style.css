@@ -49,7 +49,7 @@ section .container {
 .container,
 .contact-methods,
 .articles,
-.events-container {
+.container-events {
     max-width: 1280px;
     width: 95%;
     margin: 0 auto;
@@ -81,7 +81,7 @@ section .articles {
     text-align: center;
 }
 
-section .events-container {
+section .container-events {
     display: flex;
 }
 
@@ -94,13 +94,13 @@ section .container figcaption,
 }
 
 .articles article img,
-.events-container article img {
+.container-events article img {
     cursor: auto;
 }
 
 .figure figcaption a,
 .articles article figcaption a,
-.events-container article figcaption a {
+.container-events article figcaption a {
     font-size: 8px;
     color: grey;
     text-decoration: none;
@@ -111,7 +111,7 @@ section .container figcaption,
 }
 
 .articles img,
-.events-container img {
+.container-events img {
     padding: 16px 0;
     border-radius: 4%;
 }
@@ -124,7 +124,7 @@ section .container figcaption,
 }
 
 .articles article div img,
-.events-container article div img {
+.container-events article div img {
     width: 95%;
     border-style: inset none;
     border-color: rgb(5, 77, 59);
@@ -136,7 +136,7 @@ section .container figcaption,
 }
 
 .articles article p,
-.events-container p {
+.container-events p {
     text-align: justify;
     padding: 12px;
 }
@@ -165,6 +165,10 @@ section .container figcaption,
 #events,
 #contact {
     padding: 30px 0;
+}
+
+.container-partners h3 {
+    text-align: center;
 }
 
 #contact .container {
